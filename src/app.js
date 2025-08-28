@@ -1,5 +1,10 @@
 import express from "express";
-import indexRoutes from "./routes/index.js"; //Importing routes
+
+import homeRoutes from "./routes/home.js"; //Importing routes
+import aboutRoutes from "./routes/about.js";
+import postRoutes from "./routes/post.js";
+
+
 
 //Path Imports
 import path from "path";
@@ -28,5 +33,8 @@ app.listen(PORT, () => {
 })
 
 // Contoller Routes
-app.use("/", indexRoutes);
+app.use("/", homeRoutes);
+app.use("/", aboutRoutes);
+app.use("/", postRoutes);
+
 

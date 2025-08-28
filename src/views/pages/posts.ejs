@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <%- include("../partials/header.ejs") %>
+
+    <div class="album py-5 bg-body-tertiary" bis_skin_checked="1" style="background-color: transparent !important;">
+        <div class="container" bis_skin_checked="1">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" bis_skin_checked="1">
+            <div class="col" bis_skin_checked="1">
+                <div class="card shadow-sm" bis_skin_checked="1">
+                    <video src="/videos/whatsapp_clone.mp4" controls></video>
+                    <div class="card-body" bis_skin_checked="1">
+                        <p class="card-text"> <b>Whatsapp Clone:</b>  This is a full-stack WhatsApp clone built using Java, Spring Framework with clean project archtitecture and tested with JUnit and Mockito. Application is secured wwith Spring Security. It supports messaging, photo/file sharing, video calls, real-time updates, and secure registration with OTP authentication via email or phone.
+
+                            <br>
+                            <br>
+                            <a href="https://github.com/emregokyar/ChatApp" style="color: black !important;" target="_blank">Click here to see the project.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col" bis_skin_checked="1">
+                <div class="card shadow-sm" bis_skin_checked="1">
+        
+                <img src="/images/pexels-chanaka-906494.jpg" alt="Container image">
+                <div class="card-body" bis_skin_checked="1">
+                    <p class="card-text"><b>Medium Docker Swarm Article:</b> I explored Docker Swarm, Docker’s built-in orchestration tool, and wanted to share a beginner-friendly guide. This article covers nodes, services, tasks, and a simple example deployment to help you get started quickly. 
+                        <br>
+                        <br>
+                        <br>
+                        <a href="https://medium.com/@emregokyar1940/docker-swarm-7d451512f0ea" style="color: black !important;" target="_blank"> Clik to read full context.</a></p>
+                </div>
+                </div>
+            </div>
+            <div class="col" bis_skin_checked="1">
+                <div class="card shadow-sm" bis_skin_checked="1">
+        
+                <img src="/images/project.png" alt="">
+                <div class="card-body" bis_skin_checked="1">
+                    <p class="card-text"><b>Social Media Application:</b> U-Me is a full-featured social media platform inspired by Instagram, built using Java and Spring Boot. It supports secure user authentication, user interaction (follow, like, comment), content discovery, and a notification system. Currently, real-time private chat functionality is being implemented using WebSocket.
+                        <br>
+                        <br>
+                        <br>
+                        <a href="https://github.com/emregokyar/SocialMedia" style="color: black !important;" target="_blank">Click here to see the project. </a>
+                    </p>
+                </div>
+                </div>
+            </div>
+     
+            </div>
+        </div>
+    </div>
+
+    <%- include("../partials/footer.ejs") %>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
